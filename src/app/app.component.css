@@ -1,0 +1,59 @@
+.common-box{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 40px;
+}
+
+.flex-container-one {
+    text-align: center;
+    background-image: url('src\assets\images\bg-tile.gif');
+    color: orange;
+    font-size: 30px;
+}
+
+.flex-container-one >label, .flex-container-one >img{
+padding: 30px;
+align-content: center;
+vertical-align: middle;
+}
+
+.flex-container-two {
+    text-align: center;
+    background-image: url('src\assets\images\bg-tile-yellow.gif'); 
+}
+
+.overlay-img {
+    position: absolute;
+	top: 120px;
+    left: 850px;
+    z-index: 2;
+}
+
+
+.flex-container-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url('src\assets\images\bg-tile.gif'); 
+    font-size: 30px;
+
+  }
+
+.flex-container-four {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url('src\assets\images\bg-tile-brown.gif'); 
+    color: rgb(245, 241, 234);
+    font-size: 12px;
+    padding: 50px;
+}
+
+.flex-container-four >p{
+    padding-right: 100px;
+    padding-left: 10px;
+}
+  
